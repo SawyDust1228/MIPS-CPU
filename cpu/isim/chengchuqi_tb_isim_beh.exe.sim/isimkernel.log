@@ -1,0 +1,28 @@
+Command line:
+   chengchuqi_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50146
+
+Tue Dec 15 21:33:45 2020
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5168.37 Meg
+
+ Total Signals          : 24
+ Total Nets             : 149
+ Total Signal Drivers   : 14
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 20
+ Total Traceable Variables  : 32
+ Total Scalar Nets and Variables : 438
+
+ Total Simulation Time: 0.140625 sec
+
+ Current Memory Usage: 4696.51 Meg
+
+Wed Dec 16 15:31:41 2020
+

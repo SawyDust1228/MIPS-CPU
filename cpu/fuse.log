@@ -1,0 +1,67 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/jizu/p6/cpup6/mips_tb_isim_beh.exe" -prj "D:/jizu/p6/cpup6/mips_tb_beh.prj" "work.mips_tb" "work.glbl" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/jizu/p6/cpup6/zhilingfenjie.v" into library work
+Analyzing Verilog file "D:/jizu/p6/cpup6/RDKUOZHAN.v" into library work
+Analyzing Verilog file "D:/jizu/p6/cpup6/pc.v" into library work
+Analyzing Verilog file "D:/jizu/p6/cpup6/NPC.v" into library work
+Analyzing Verilog file "D:/jizu/p6/cpup6/MUX.v" into library work
+Analyzing Verilog file "D:/jizu/p6/cpup6/mem_wb.v" into library work
+Analyzing Verilog file "D:/jizu/p6/cpup6/im.v" into library work
+Analyzing Verilog file "D:/jizu/p6/cpup6/IF_Id.v" into library work
+Analyzing Verilog file "D:/jizu/p6/cpup6/id_ex.v" into library work
+Analyzing Verilog file "D:/jizu/p6/cpup6/GRF.v" into library work
+Analyzing Verilog file "D:/jizu/p6/cpup6/ex_mem.v" into library work
+Analyzing Verilog file "D:/jizu/p6/cpup6/EXT.v" into library work
+Analyzing Verilog file "D:/jizu/p6/cpup6/DM.v" into library work
+Analyzing Verilog file "D:/jizu/p6/cpup6/control.v" into library work
+Analyzing Verilog file "D:/jizu/p6/cpup6/cmp.v" into library work
+Analyzing Verilog file "D:/jizu/p6/cpup6/chengchuqi.v" into library work
+Analyzing Verilog file "D:/jizu/p6/cpup6/BE.v" into library work
+Analyzing Verilog file "D:/jizu/p6/cpup6/ALU.v" into library work
+Analyzing Verilog file "D:/jizu/p6/cpup6/adventure_control.v" into library work
+Analyzing Verilog file "D:/jizu/p6/cpup6/mips.v" into library work
+Analyzing Verilog file "D:/jizu/p6/cpup6/mips_tb.v" into library work
+Analyzing Verilog file "D:/ise/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module pc
+Compiling module NPC
+Compiling module im
+Compiling module IF_Id
+Compiling module zhilingfenjie
+Compiling module control
+Compiling module ext
+Compiling module GRF
+Compiling module MUX8
+Compiling module MUX4
+Compiling module MUX5
+Compiling module cmp
+Compiling module id_ex
+Compiling module MUX6
+Compiling module MUX7
+Compiling module MUX3
+Compiling module ALU
+Compiling module chengchuqi
+Compiling module MUX10
+Compiling module MUX1
+Compiling module ex_mem
+Compiling module BE
+Compiling module DM
+Compiling module MUX9
+Compiling module mem_wb
+Compiling module RDKUOZHAN
+Compiling module MUX2
+Compiling module adventure_control
+Compiling module mips
+Compiling module mips_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 3 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: 系统找不到指定的路径。, "isim\mips_tb_isim_beh.exe.sim\libPortability.dll".
+Compiled 31 Verilog Units
+Built simulation executable D:/jizu/p6/cpup6/mips_tb_isim_beh.exe
+Fuse Memory Usage: 36452 KB
+Fuse CPU Usage: 562 ms
